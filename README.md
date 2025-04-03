@@ -23,3 +23,11 @@ https://cp.xrea.com/site/tools/
 
 # 必要な情報
 XREA.COM NEW SIGNUP というメールに書かれています。
+
+#リリース手順
+
+プロジェクトディレクトリで以下のコマンドを実行してください
+
+```
+sh deploy.sh
+```
