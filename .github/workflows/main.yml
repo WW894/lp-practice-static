@@ -22,7 +22,7 @@ jobs:
       run: |
         sleep 300
         mkdir -p ~/.ssh
-        echo "${SSH_KEY}" > ~/.ssh/id_ed25519_github
-        chmod 400 ~/.ssh/id_ed25519_github
+        echo "${SSH_KEY}" > ~/.ssh/id_rsa
+        chmod 400 ~/.ssh/id_rsa
         ssh-keyscan s323.xrea.com >> ~/.ssh/known_hosts
         rsync -av ./ wamwam@s323.xrea.com:~/lp-practice-static
